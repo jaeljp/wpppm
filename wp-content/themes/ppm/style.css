@@ -1,0 +1,253 @@
+/*
+Theme Name: PPM
+Theme URI: www.publipromueve.com
+Description: Wp
+Version: 1
+Author: Jael
+Author URI: 
+*/
+*{
+
+	padding:0;
+	margin:0;
+
+}
+
+body{
+
+	color:#000;
+	font-size:12px;
+	line-height:150%;
+	font-family:"Lucida Grande",Lucida,Verdana,sans-serif;
+	text-align:center;
+	background:url(images/header.jpg) #000 repeat-x;
+
+}	
+
+p{
+
+	text-align:left;
+	margin-bottom:8px;
+
+}
+
+
+h1{
+
+	font-size:16px;
+	line-height:126%;
+	font-style:normal;
+	font-weight:normal;
+	margin-bottom:10px;
+	text-align:left;
+}
+
+
+h2{
+
+	font-size:13px;
+	line-height:110%;
+	margin-bottom:10px;
+	text-align:left;
+	text-transform:uppercase;
+
+}
+
+
+h3{
+
+	font-size:12px;
+	line-height:110%;
+	color:#fff;
+	margin-bottom:2px;
+	text-align:left;
+	text-transform:uppercase;
+
+}
+
+
+a{
+
+	text-decoration:none;
+	color:#000;
+	font-weight:bold;
+
+}
+
+
+img{
+	
+	border:none;
+}
+
+/**estilo cajas**/
+
+
+.wrap{
+
+	width:980px;
+	margin:0 auto;
+
+}
+
+
+#header{
+
+	width:100%;
+	padding-top:10px;
+	float:left;
+
+}
+
+
+#content{
+
+	background:url(images/content.jpg) #ccc repeat-x;
+	float:left;
+	width:100%;
+	margin-top:20px;
+	
+}
+
+
+#footer{
+
+	float:left;
+	width:100%;
+	padding-top:40px;
+	padding-bottom:40px;
+
+}
+
+
+#logo{
+
+	width:229px;
+	float:left;
+
+}
+
+
+#menu{
+
+	width:580px;
+	float:right;
+	margin-top:24px;
+
+}
+
+
+
+#menu ul{
+
+	list-style-type:none;
+	float:right;
+	width:100%;
+
+}
+
+
+
+#menu ul li{
+
+	display:inline;
+
+
+}
+
+
+#menu ul li a{
+
+	color:#fff;
+	text-transform:uppercase;
+	padding:4px 8px 4px 8px;
+	text-decoration:none;
+	margin-left:30px;
+
+}
+
+
+#banner{
+
+	width:938px;
+	margin-top:40px;
+	margin-bottom:20px;
+	float:left;
+	border:1px solid #fff;
+	height:300px;
+
+}
+
+
+
+/**estilo content***/
+
+
+#blanco{
+
+	width:890px;
+	padding:25px;
+	background:#fff;
+	float:left;
+
+}
+
+.columna{
+
+	float:left;
+	width:280px;
+
+}
+
+
+.columna img,.col_medio img{
+
+	margin-bottom:20px;
+
+}
+
+.col_medio{
+
+	float:left;
+	width:280px;
+	padding-right:25px;
+	padding-left:25px;
+
+}
+
+#blanco h1{
+
+
+	text-decoration:none;
+}
+#contacto{
+	margin-top:90px;
+	padding-top:10px;
+	color:#fff;
+	font-family:Arial;
+	font-size:10px;
+}
+
+#noticias ul{
+	float:left;
+	list-style-type : none;
+	text-align : left;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	width:100%;
+}
+
+#noticias ul li{
+	
+	margin-bottom:1px;
+	padding-bottom:0px;
+	text-align:left;
+	font-size:10px;
+	font-weight:normal;
+	
+}
+
+#noticias ul li a{
+	color:#fff;
+	text-transform:uppercase;
+}
