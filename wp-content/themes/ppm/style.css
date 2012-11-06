@@ -6,6 +6,7 @@ Version: 1
 Author: Jael
 Author URI: 
 */
+@import url("slider.css");
 *{
 
 	padding:0;
@@ -166,6 +167,17 @@ img{
 
 }
 
+#menu ul li.current_page_item a{
+
+	color:#ccc;
+	font-weight:bold;
+}
+
+#menu ul li.current_page_item a, #menu ul li a:hover{
+
+	color:#ccc;
+	font-weight:bold;
+}
 
 #banner{
 
